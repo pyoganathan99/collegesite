@@ -1,0 +1,134 @@
+
+.mdl-layout__header-row {
+    padding: 0px;
+}
+.mdl-layout__header-row > h3 {
+    font-size: 28px; 
+}
+
+.my-nav > a {
+    color: gray;
+}
+.mini-nav {
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    .main-title{
+        padding-top: 0px;
+        height: 48px;
+    }
+    .mdl-layout__header-row > h3 {
+        font-size: 18px; 
+        padding-top: 0px;
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-bottom:0px;
+    }   
+}
+.yogi-main{
+    margin-left:180px;
+    padding: 24px;    
+    padding-top: 24px;
+}
+.demo-card-wide.mdl-card {
+    width: 50vw;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 31.25vw;
+  }
+
+  @media only screen and (max-width: 1024px){
+    .yogi-main{
+        margin-left: 0px;
+        padding: 17.5vw;
+        padding-top: 0px;
+    }
+    .last{
+        padding-right:24px;
+    }
+.demo-card-wide.mdl-card {
+    width: 65vw;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 40.625vw;
+  }
+}
+@media only screen and (max-width: 768px){
+    .yogi-main{
+        margin-left: 0px;
+        padding: 2.5vw;
+        padding-top: 0px;
+    }
+    
+.demo-card-wide.mdl-card {
+    width: 80vw;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 50vw;
+  }
+}
+@media only screen and (max-width: 425px){
+    .yogi-main{
+        margin-left: 0px;
+        padding: 2.5vw;
+        padding-top: 0px;    
+    }
+    
+.demo-card-wide.mdl-card {
+    width: 95vw;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 56.25vw;
+  }
+}
+body, h3 {
+    font-family: 'Open Sans'
+}
+h3 {
+    margin-bottom:36px;
+}
+.yogi-header{
+    height: 48px;
+    padding-bottom: 12px;
+}
+.yogi-navigation{
+    height: fit-content !important;
+}
+.yogi-navigation > .mdl-navigation__link{
+    line-height: 0px;
+}
+a.mdl-js-ripple-effect {
+    position: relative;
+}
+.mdl-layout__drawer {
+    width: 180px;
+    left: 0px;
+}
+  @media only screen and (max-width: 500px) {
+    .yogi-header{
+        height: 48px;
+        padding-bottom: 0px;
+    }
+}
+
+.demo-card-square.mdl-card {
+    max-width: 240px;
+    height: 200px;
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+      url('untitled.png') center/cover;
+  }
+  .demo-card-square > .mdl-card__supporting-text{
+      height: fit-content;
+  }
+
+.mdl-cell{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
