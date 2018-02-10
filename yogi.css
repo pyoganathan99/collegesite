@@ -132,3 +132,7 @@ a.mdl-js-ripple-effect {
     margin-top: 24px;
     margin-bottom: 24px;
 }
+
+.mdl-card__supporting-text{
+    text-align: left;
+}
